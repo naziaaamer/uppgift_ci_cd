@@ -4,11 +4,11 @@ from src.registration import Registration
 
 @pytest.mark.unit
 def test_registration_fee_is_paid():
-    #Arrange
+    # Arrange
     registration = Registration()
 
-    #Act
+    # Act
     result = registration.fee_is_paid()
 
-    #Assert
+    # Assert
     assert result is True
