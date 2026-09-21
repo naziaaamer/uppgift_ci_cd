@@ -1,6 +1,6 @@
 import pytest
-
 from src.registration import Registration
+
 
 @pytest.mark.unit
 def test_registration_fee_is_paid():
